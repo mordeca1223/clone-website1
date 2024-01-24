@@ -1,0 +1,55 @@
+body{
+    font-family: 'Play', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+span{
+    color: crimson;
+}
+section{
+    display: flex;
+}
+div{
+    padding: 2em;
+    width: 50%;
+}
+p{
+    margin-bottom: 50px;
+    font-size: 15px;
+    
+}
+.top-image{
+    width: 100%;
+    padding-left: 50px;
+    align-items: flex-end;
+}
+.top-section{
+    background-repeat: no-repeat;
+}
+
+.middle-image{
+    width: 100%;
+    padding-right: 50px;
+    align-items: flex-end;
+    object-position: top;
+}
+.item{
+    margin: 0 30px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 30px 2px;
+    border-left: 8px solid;
+    border-image: linear-gradient(tomato, cyan);
+    border-image-slice: 1;
+    width: 500px;
+}
+footer{
+    text-align: center;
+}
+.button-section{
+    padding-left: 100px;
+}
